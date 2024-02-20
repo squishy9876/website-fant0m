@@ -15,12 +15,6 @@
     <link href="assets/css/particles.css" media="screen" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com" rel="preconnect">
-    
-    <script type="text/javascript">
-        window.onload= function(){
-            document.getElementById("ngga").play();
-        }
-    </script>
 
 </head>
 <body>
@@ -40,16 +34,14 @@
 <script>
     window.onload=function()
     {
-        var aud = doc.getElementById("bgaudio");
-        aud.volume = 0.2;
+        var aud = new Audio("YOU.mp3")
+        aud.volume = 0.3;
+        aud.play();
     }
 </script>
 
 
 <div class="center">
-    <audio id="bgaudio" autoplay="" loop="">
-        <source src="assets/music/YOU.mp3" type="audio/mp3">
-      </audio>
     <div class="frame">
         <img src="assets/images/Rxin.png" class="profilepic">
         <h3>Rxin</h3>
