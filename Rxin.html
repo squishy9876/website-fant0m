@@ -40,7 +40,9 @@
 <script>
     window.onload=function()
     {
-        var audio = new Audio("YOU.mp3").play();
+        var audio = new Audio("YOU.mp3");
+        audio.volume = 30;
+        audio.play();
     }
 </script>
 
