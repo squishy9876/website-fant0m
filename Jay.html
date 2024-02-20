@@ -28,7 +28,18 @@
     }
 </script>
 
+<script>
+    window.onload=function()
+    {
+        var aud = doc.getElementById("bgaudio");
+        aud.volume = 0.2;
+    }
+</script>
+
 <div class="center">
+    <audio id="bgaudio" autoplay="" loop="">
+        <source src="assets/music/UK.mp3" type="audio/mp3">
+      </audio>
     <div class="frame">
         <img src="assets/images/Jay.png" class="profilepic">
         <h3>Jay</h3>
