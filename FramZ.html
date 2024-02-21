@@ -28,7 +28,19 @@
     }
 </script>
 
+<script>
+    window.onload = function()
+    {
+        var aud = new Audio("../music/FrshSong.mp3");
+        aud.volume = 0.3;
+    }
+</script>
+
+
 <div class="center">
+    <audio id="bgaudio" autoplay="" loop="">
+            <source src="assets/music/Breathe.mp3" type="audio/mp3">
+        </audio>
     <div class="frame">
         <img src="assets/images/FramZ.png" class="profilepic">
         <h3>FramZ</h3>
