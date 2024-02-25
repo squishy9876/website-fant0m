@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Frsh</title>
+        <link href="assets/css/image.css" rel="stylesheet">
+        <link href="assets/css/particles.css" media="screen" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="particles-js"></div>
+
+        <script>
+            window.onload = function()
+            {
+                var aud = new Audio("../music/FrshSong.mp3");
+                aud.volume = 0.3;
+            }
+        </script>
+
+        <audio id="bgaudio" autoplay="" loop="">
+            <source src="assets/music/FrshSong.mp3" type="audio/mp3">
+        </audio>
+
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/particles.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>

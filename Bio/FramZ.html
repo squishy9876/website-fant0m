@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fant0m</title>
+
+    <meta content="Fant0m | FramZ" property="og:title" />
+    <meta content="XWorm.exe" property="og:description" />
+    <meta content="https://fant0m.lol/FramZ" property="og:url" />
+    <meta content="../assets/images/FramZ.png" property="og:image" />
+    <meta content="#7e47ff" data-react-helmet="true" name="theme-color" />
+
+    <link href="../assets/css/bios.css" rel="stylesheet">
+    <link href="../assets/css/particles.css" media="screen" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<script>
+    var video=document.getElementById("video-background")
+    function nigg() {
+        video.play();
+        video.muted = false;
+        video.volume = .3;
+        console.log("playing video")
+    }
+</script>
+
+<script>
+    window.onload = function()
+    {
+        var aud = new Audio("../music/FrshSong.mp3");
+        aud.volume = 0.3;
+    }
+</script>
+
+
+<div class="center">
+    <audio id="bgaudio" autoplay="" loop="">
+            <source src="../assets/music/Breathe.mp3" type="audio/mp3">
+        </audio>
+    <div class="frame">
+        <img src="../assets/images/FramZ.png" class="profilepic">
+        <h3>FramZ</h3>
+        <p1>XWorm.exe<br><br></p1>
+    </div>
+</div>
+
+</body>
+
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/particles.js"></script>
+<script src="../assets/js/app.js"></script>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/9105e9014d.js"></script>
+
+</html>
