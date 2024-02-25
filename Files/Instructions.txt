@@ -1,0 +1,8 @@
+Instructions:
+[1] Open driver folder and drag kernel.sys into kdmapper.exe
+[2] Open Arctic.exe select n on both of the options
+[3] Open fortnite
+
+Menu Toggle is: Return/Enter
+
+-_-
